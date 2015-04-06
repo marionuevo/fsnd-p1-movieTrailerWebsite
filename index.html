@@ -1,6 +1,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <title>marioNuevo Favorite Movies</title>
 
     <!-- Bootstrap 3 -->
@@ -8,9 +9,28 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    
+    <!-- Google fonts loading script -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Open+Sans::latin,latin-ext' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            font-family: 'Open Sans', sans-serif;
+            background-image: radial-gradient(circle 600px at 50% , #fff 0%, #aaa 100%);
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -32,7 +52,7 @@
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: rgba(0, 0, 0, 0.1);
             cursor: pointer;
         }
         .scale-media {
@@ -107,31 +127,37 @@
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="5PSNL1qE6VY" data-toggle="modal" data-target="#trailer">
     <img class="img-rounded" src="http://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg" width="220" height="342">
     <h2>Avatar</h2>
+    <h4>James Cameron (2009)</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="R8wUIez--WE" data-toggle="modal" data-target="#trailer">
     <img class="img-rounded" src="http://upload.wikimedia.org/wikipedia/en/9/93/The_Intouchables.jpg" width="220" height="342">
-    <h2>Intouchables</h2>
+    <h2>The Intouchables</h2>
+    <h4>Eric Toledano, Olivier Nakache (2011)</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="_V-O6nq92wY" data-toggle="modal" data-target="#trailer">
     <img class="img-rounded" src="http://upload.wikimedia.org/wikipedia/en/d/d0/Good_Morning%2C_Vietnam.jpg" width="220" height="342">
     <h2>Good Morning Vietnam</h2>
+    <h4>Barry Levinson (1987)</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="zSWdZVtXT7E" data-toggle="modal" data-target="#trailer">
     <img class="img-rounded" src="http://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" width="220" height="342">
     <h2>Interestellar</h2>
+    <h4>Christopher Nolan (2014)</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="rrRl2QQKkI8" data-toggle="modal" data-target="#trailer">
     <img class="img-rounded" src="http://upload.wikimedia.org/wikipedia/en/d/dc/As_good_as_it_gets.jpg" width="220" height="342">
     <h2>As Good As It Gets</h2>
+    <h4>James L. Brooks (1997)</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailer">
     <img class="img-rounded" src="http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg" width="220" height="342">
     <h2>Toy Story</h2>
+    <h4>John Lasseter (1995)</h4>
 </div>
 
     </div>
