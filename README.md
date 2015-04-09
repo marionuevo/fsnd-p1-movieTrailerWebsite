@@ -9,7 +9,7 @@ The goal for this project was to build a Movie Trailer Website where users can s
 Several quick start options are available:
 
 - [Download the latest release](https://github.com/marionuevo/fsnd-p1-movieTrailerWebsite/archive/master.zip).
-- Clone the repo: 'git clone https://github.com/marionuevo/fsnd-p1-movieTrailerWebsite.git'.
+- Clone the repo: `git clone https://github.com/marionuevo/fsnd-p1-movieTrailerWebsite.git`.
 
 Then, run 'python entertainment_center.py'
 
