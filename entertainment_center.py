@@ -6,6 +6,7 @@
 import media
 import fresh_tomatoes
 
+# lets create Movie instances
 toy_story = media.Movie(
 	"Toy Story",
     "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -50,4 +51,5 @@ asgood = media.Movie(
 
 moviesList = [avatar, intouchables, vietnam, interestellar, asgood, toy_story]
 
+# finally, build webpage
 fresh_tomatoes.open_movies_page(moviesList)
