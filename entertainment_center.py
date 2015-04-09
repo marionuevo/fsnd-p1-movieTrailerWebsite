@@ -43,7 +43,7 @@ interestellar = media.Movie(
 
 asgood = media.Movie(
 	"As Good As It Gets",
-	"http://upload.wikimedia.org/wikipedia/en/d/dc/As_good_as_it_gets.jpg",
+	"http://ia.media-imdb.com/images/M/MV5BMTc0Nzc5MDEzN15BMl5BanBnXkFtZTcwMjc2NTEyMQ@@._V1__SX1394_SY743_.jpg",
 	"http://www.youtube.com/watch?v=rrRl2QQKkI8",
 	"1997",
 	"James L. Brooks")

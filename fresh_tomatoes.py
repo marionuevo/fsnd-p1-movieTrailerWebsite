@@ -89,7 +89,8 @@ main_page_head = '''
               'id': 'trailer-video',
               'type': 'text-html',
               'src': sourceUrl,
-              'frameborder': 0
+              'frameborder': 0,
+              'class': 'embed-responsive-item'
             }));
         });
         // Animate in the movies when the page loads
@@ -114,7 +115,7 @@ main_page_content = '''
           <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
             <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
           </a>
-          <div class="scale-media" id="trailer-video-container">
+          <div class="embed-responsive embed-responsive-16by9" id="trailer-video-container">
           </div>
         </div>
       </div>
