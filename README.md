@@ -19,7 +19,7 @@ Several quick start options are available:
 
 Then, run `python entertainment_center.py` and a browser will be launched contaning the Website containing generated index.html file.
 
-Alternatively, you could view a live demo of this project [here]().
+Alternatively, you could view a live demo of this project [here](http://www.marionuevo.com/fsnd-p1-movieTrailerWebsite).
 
 ## Usage
 
