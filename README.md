@@ -19,14 +19,17 @@ Several quick start options are available:
 
 Then, run `python entertainment_center.py` and a browser will be launched contaning the Website containing generated index.html file.
 
+Alternatively, you could view a live demo of this project [here]().
+
 ## Usage
 
-Browse the different movies and click over the movie in irder to watch its trailer.
+Browse the different movies and click over a movie in order to watch its trailer.
 
-## Custom changes done beyond requested features
+### Custom changes done beyond requested features
 
 - Added modal fade.
 - Added radial gradient background.
 - Added transparent (rgba) hover effect.
 - Changed to Open Sans font, loaded using javascript to not block content loading.
 - Added extra Movie fields: director, year.
+- Changed generated HTML file to `index.html`.
